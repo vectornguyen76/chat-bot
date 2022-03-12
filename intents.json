@@ -1,0 +1,506 @@
+{
+     "intents": [
+          {
+               "tag": "chào hỏi",
+               "patterns": [
+                    "Chào bạn",
+                    "Hello",
+                    "Xin chào",
+                    "Hi",
+                    "Chào em",
+                    "Chào cậu",
+                    "Chào Chatbot"
+               ],
+               "responses": [
+                    "Xin chào bạn, mình tên là Kitchen Bot. Mình rất vui khi có thể tư vấn cho bạn."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Hỏi tên",
+               "patterns": [
+                    "Bạn tên gì?"
+               ],
+               "responses": [
+                    "Mình tên là Kitchen Bot. Mình rất vui khi có thể tư vấn cho bạn. Còn bạn tên gì?"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "chức năng",
+               "patterns": [
+                    "Bạn có thể làm được gì?",
+                    "Bạn có thể giúp gì cho tôi?",
+                    "Chatbot có thể làm gì?",
+                    "Bạn tư vấn được gì?"
+               ],
+               "responses": [
+                    "Mình có thể tư vấn cho bạn về thực đơn các món ăn trong ngày. Ngoài ra mình có thể lên thưc đơn với những nguyên liệu bạn đang có."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "trời nóng",
+               "patterns": [
+                    "Trời nóng thì nên ăn gì?",
+                    "Tư vấn món ăn cho ngày nắng nóng?",
+                    "Trời nóng thì ăn gì ngon?"
+               ],
+               "responses": [
+                    "Canh cua rau đay, mồng tơi, mướp hương",
+                    "Nộm lưỡi heo dọc mùng",
+                    "Tôm rang tỏi",
+                    "Canh hến nấu bầu",
+                    "Canh mực nấu chua"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "trời lạnh",
+               "patterns": [
+                    "Trời lạnh thì nên ăn gì?",
+                    "Tư vấn món ăn cho ngày nắng lạnh?",
+                    "Trời lạnh thì ăn gì ngon?"
+               ],
+               "responses": [
+                    "Trời lạnh nên ăn các món cay và nóng như: Lẩu bò, bún ốc, gà kho, cá kho,..."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "bổ máu",
+               "patterns": [
+                    "Ăn gì bổ máu?",
+                    "Thiếu máu nên ăn gì?",
+                    "Ăn gì tốt cho máu"
+               ],
+               "responses": [
+                    "Canh gan gà và lá dâu non",
+                    "Gan heo nấu với táo đỏ",
+                    "Cháo gan heo nấu đậu xanh",
+                    "Bò lúc lắc",
+                    "Thịt bò xào rau cần",
+                    "Món thịt bò kho dưa",
+                    "Bò sốt tiêu đen",
+                    "Bò xào chua ngọt"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "bầu",
+               "patterns": [
+                    "Các món ăn cho mẹ bầu?",
+                    "Có bầu nên ăn gì?",
+                    "Ăn gì tốt cho mẹ bầu"
+               ],
+               "responses": [
+                    "Cơm nấu nước trái cây thập cẩm",
+                    "Canh ngao nấu chua",
+                    "Canh rau muống nấu nghêu",
+                    "Canh rau ngót thịt bằm",
+                    "Canh rau ngót thịt bằm",
+                    "Cháo cá chép đậu xanh"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "bệnh",
+               "patterns": [
+                    "Các món ăn cho người bị bệnh?",
+                    "Bị bệnh nên ăn gì?",
+                    "Bị ốm nên ăn gì?",
+                    "Nấu gì cho người bị ốm?"
+               ],
+               "responses": [
+                    "Canh khoai tây nấu sườn ăn nhanh khỏi bệnh lắm",
+                    "Canh đu đủ hầm thịt nạc, sung đầy đủ dinh dưỡng",
+                    "Cháo bồ câu ăn là mê",
+                    "Canh bí đỏ nấu xương bổ thì khỏi nói",
+                    "Canh khoai tây, cà rốt, hạt sen thích hợp nếu bạn không ăn được thịt",
+                    "Gà hầm thuốc bắc ăn nhanh lại sức lắm"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "hôm nay ăn gì?",
+               "patterns": [
+                    "Hôm nay mình nên ăn gì?",
+                    "Ăn gì hôm nay",
+                    "Thực đơn hôm nay là gì"
+               ],
+               "responses": [
+                    "Bạn có nên cho mình biết một số thông tin như thời tiết, tình trạng sức khoẻ và nhu cầu để mình tư vấn chính xác hơn."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "sáng ăn gì?",
+               "patterns": [
+                    "Mình nên ăn gì buổi sáng",
+                    "sáng nay ăn gì?"
+               ],
+               "responses": [
+                    "Buổi sáng nên ăn các món nước như: bún bò, phở gà, bún riêu, bánh mì,... sẽ giúp bạn tiêu hoá tốt hơn",
+                    "Bạn có thể bắt đầu bữa sáng với các món như: bánh ướt chả, bánh cuốn trứng, bánh mì ốp la, bánh Sandwich và một ly sữa sẽ rất tuyệt đấy.",
+                    "Bạn có thể ăn một hộp xôi gấc, xôi xéo, xôi bắp và 1 chai sữa đậu nành để có một buổi sáng nhiều năng lượng",
+                    "Bạn có thể uống một ly ngũ cốc và ăn ít hoa quả nếu bạn không thấy quá đói",
+                    "Bạn có thể ăn các món súp như: súp cua trứng bắc thảo, súp gà,... và một ly nước cam sẽ rất tuyệt đấy"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Trưa, tối nay ăn gì?",
+               "patterns": [
+                    "Trưa nay mình nên ăn gì?",
+                    "Ăn gì vào trưa nay",
+                    "Trưa nay ăn gì thì ngon?",
+                    "Tối nay ăn gì?",
+                    "Ăn gì buổi tối?"
+               ],
+               "responses": [
+                    "Bạn có thể ăn các món như Cơm sườn, cơm tấm, Cơm gà xối mỡ, cơm bò lúc lắc, cơm rang dưa bò, cơm trộn hàn quốc và một ly nước ép hoa quả sẽ rất ngon đấy.",
+                    "Bạn có thể ăn các món như: Thịt luộc + Cà pháo + Mắm tôm, canh rau đay thịt bằm và một ly nước ép dứa.",
+                    "Bạn có thể ăn các món như: Canh mướp đắng nhồi thịt, Salad rau, Thịt ba chỉ luộc, Ốc móng tay xào",
+                    "Bạn có thể ăn các món như: Thịt ba chỉ luộc, Đậu rim mắm, Canh rau ngót nấu thịt, Lòng gà xào nấm và Cà muối",
+                    "Bạn có thể ăn các món như: Đậu rán chấm mắm tôm, gà rang, lạc rang và rau thơm ăn kèm",
+                    "Bạn có thể ăn các món như: Ốc nấu đậu, Đậu sốt cà chua, Cá rô rán giòn và Rau mồng tơi luộc",
+                    "Bạn có thể ăn các món như: Đậu rán giòn, Cá rô rán giòn, Canh cua cà muối, Rau muống luộc và Lòng lợn luộc",
+                    "Bạn có thể ăn các món như: Cá kho tộ, Đậu đũa luộc, Chả cá sốt cà chua và Cà muối",
+                    "Bạn có thể ăn các món như: Đậu cove xào lòng, Thịt gà rang gừng Bí xanh luộc chấm vừng",
+                    "Bạn có thể ăn các món như: Dưa cải muối chua, Canh mướp lòng gà, Thịt ba chỉ kho tàu, Lạc rang muối,Rau muống luộc",
+                    "Bạn có thể ăn các món như: Rau bí luộc, Sườn xào dứa, Canh bầu nấu ngao, Đậu rán, Cà muối chua ngọt",
+                    "Bạn có thể ăn các món như: Rau muống luộc, Cá rán, Thịt kho tàu, Canh cá nấu chua",
+                    "Bạn có thể ăn các món như: Canh cua cà muối, Mướp xào thịt lợn, Su su luộc, Thịt lợn rang",
+                    "Bạn có thể ăn các món như: Canh ngao, Dưa cải muối chua, Sườn xào chua ngọt, Thịt xào ngồng tỏi và Hoa quả tráng miệng",
+                    "Bạn có thể ăn các món như: Cá rán giòn, Canh cá chua, Đậu đũa xào",
+                    "Bạn có thể ăn các món như: Canh xương, Bí ngô xào tỏi, Thịt lợn luộc và Hoa quả tráng miệng",
+                    "Bạn có thể ăn các món như: Thịt chân giò luộc, Canh mướp, Canh cá nấu chua, Đậu đũa xào lòng",
+                    "Bạn có thể ăn các món như: Tôm nõn rim mắm, Canh chua, Cải thảo luộc, Dưa chuột góp, Sườn sụn xào",
+                    "Bạn có thể ăn các món như: Thịt ba chỉ chiên giòn, Canh cá nấu chua, Cá rán giòn và Rau sống ăn kèm"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Thịt heo nấu món gì?",
+               "patterns": [
+                    "Thịt heo có thể nấu món gì?",
+                    "Thịt heo nấu món gì ngon",
+                    "Các nấu thịt heo?"
+               ],
+               "responses": [
+                    "Bạn có thể nấu món: Thịt heo chiên xóc tỏi.",
+                    "Bạn có thể nấu món: Thịt heo hầm cà rốt",
+                    "Bạn có thể nấu món: Thịt heo bọc sả chiên giòn",
+                    "Bạn có thể nấu món: Thịt heo rang muối ớt",
+                    "Bạn có thể nấu món: Thịt heo kho mắm ruốc",
+                    "Bạn có thể nấu món: Thịt heo kho tàu",
+                    "Bạn có thể nấu món: Thịt heo cuộn măng hầm",
+                    "Bạn có thể nấu món: Thịt heo kho củ cải trắng",
+                    "Bạn có thể nấu món: Món Thịt heo xào lăn",
+                    "Bạn có thể nấu món: Thịt heo kho gừng"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Thịt bò nấu món gì?",
+               "patterns": [
+                    "Thịt bò có thể nấu món gì?",
+                    "Thịt bò nấu món gì ngon",
+                    "Các nấu thịt bò?"
+               ],
+               "responses": [
+                    "Nấu món: Nộm rau muống trộn bò giòn giòn ngon lắm",
+                    "Nấu món: Thịt bò nướng cay ngon lắm",
+                    "Nấu món: Thịt bò sốt vang ngon lắm",
+                    "Nấu món: Thịt bò bọc nấm ngon lắm",
+                    "Nấu món: Bò lúc lắc ngon lắm",
+                    "Nấu món: Bò kho dưa ngon lắm",
+                    "Nấu món: Bò cuộn nấm kim chi ngon lắm",
+                    "Nấu món: Bắp bò kho ngũ vị ngon lắm",
+                    "Nấu món: Bò cuốn lá lốt ngon lắm",
+                    "Nấu món: Bò sốt tiêu đen ngon lắm"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Thịt gà nấu món gì?",
+               "patterns": [
+                    "Thịt gà có thể nấu món gì?",
+                    "Thịt gà nấu món gì ngon",
+                    "Các nấu thịt gà?"
+               ],
+               "responses": [
+                    "Gà nướng mật ong sẽ rất ngon, và bổ dưỡng",
+                    "Gà nướng đất sét sẽ rất ngon, và bổ dưỡng",
+                    "Gà hấp muối sả sẽ rất ngon, và bổ dưỡng",
+                    "Gà hấp hành sẽ rất ngon, và bổ dưỡng",
+                    "Gà luộc muối sẽ rất ngon, và bổ dưỡng",
+                    "Gà luộc nước dừa sẽ rất ngon, và bổ dưỡng",
+                    "Cháo gà đậu xanh sẽ rất ngon, và bổ dưỡng",
+                    "Cháo gà hạt sen sẽ rất ngon, và bổ dưỡng",
+                    "Lẩu gà ớt hiểm sẽ rất ngon, và bổ dưỡng",
+                    "Lẩu gà lá giang sẽ rất ngon, và bổ dưỡng",
+                    "Lẩu gà thuốc bắc sẽ rất ngon, và bổ dưỡng",
+                    "Gà kho sả ớt sẽ rất ngon, và bổ dưỡng",
+                    "Gà kho nghệ sẽ rất ngon, và bổ dưỡng",
+                    "Gà kho măng sẽ rất ngon, và bổ dưỡng",
+                    "Canh gà hạt sen sẽ rất ngon, và bổ dưỡng",
+                    "Canh gà nấu măng sẽ rất ngon, và bổ dưỡng",
+                    "Canh gà hầm rau củ sẽ rất ngon, và bổ dưỡng"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Cá diêu hồng nấu món gì?",
+               "patterns": [
+                    "Cá diêu hồng nấu món gì?",
+                    "Các món với cá diêu hồng?"
+               ],
+               "responses": [
+                    "Cá diêu hồng hấp xì dầu thơm ngon, lạ miệng, cực đơn giản",
+                    "Cá diêu hồng chiên xù thơm ngon, lạ miệng, cực đơn giản",
+                    "Cá diêu hồng kho thơm ngon, lạ miệng, cực đơn giản",
+                    "Canh chua cá diêu hồng thơm ngon, lạ miệng, cực đơn giản",
+                    "Lẩu cá diêu hồng thơm ngon, lạ miệng, cực đơn giản",
+                    "Cá diêu hồng sốt cà chua thơm ngon, lạ miệng, cực đơn giản",
+                    "Cá diêu hồng nấu ngót thơm ngon, lạ miệng, cực đơn giản",
+                    "Cá diêu hồng nướng giấy bạc thơm ngon, lạ miệng, cực đơn giản",
+                    "Cá diêu hồng sốt chua ngọt thơm ngon, lạ miệng, cực đơn giản",
+                    "Cá diêu hồng chưng tương thơm ngon, lạ miệng, cực đơn giản"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Cá lóc nấu món gì?",
+               "patterns": [
+                    "Nấu món gì với cá lóc?",
+                    "Cá lóc nấu món gì ngon?"
+               ],
+               "responses": [
+                    "Cá lóc nướng riềng sả ăn ngon bá cháy",
+                    "Cháo cá lóc ăn ngon bá cháy",
+                    "Canh chua cá lóc ăn ngon bá cháy",
+                    "Mì Quảng cá lóc ăn ngon bá cháy",
+                    "Cá lóc kho tộ ăn ngon bá cháy",
+                    "Cá lóc um chuối xanh ăn ngon bá cháy",
+                    "Cá lóc hấp gừng ăn ngon bá cháy",
+                    "Cá lóc hấp bầu ăn ngon bá cháy",
+                    "Cá lóc chiên sả ớt ăn ngon bá cháy",
+                    "Cá lóc hấp bia ăn ngon bá cháy"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "không biết ăn gì?",
+               "patterns": [
+                    "Mình không biết ăn gì?",
+                    "Hôm nay ăn gì ta?",
+                    "Ăn gì cũng được"
+               ],
+               "responses": [
+                    "món bún mọc là một gợi ý vô cùng tuyệt vời, vừa đảm bảo đầy đủ dinh dưỡng, vừa nhanh gọn, dễ làm.",
+                    "Bún bò Huế chắc chắn là một món ăn ngon, thích hợp để bạn thưởng thức khi chưa biết hôm nay ăn gì trong hôm nay",
+                    "Hủ tiếu Nam Vang ngon đậm đà chuẩn vị, ăn là mê",
+                    "Cháo lòng ngon lắm đấy",
+                    "Pizza cho lạ nhé",
+                    "Bún thang vừa ngon vừa đơn giản"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Tráng miệng",
+               "patterns": [
+                    "Bạn có thể tư vấn các loại đồ ăn tráng miệng không?",
+                    "Các món tráng miệng ngon"
+               ],
+               "responses": [
+                    "Món chè trái cây sầu riêng hạt chia vừa mát vừa ngon",
+                    "Yaourt trái cây ngũ cốc rất ngon đấy!",
+                    "Kem chuối trái cây sữa chua giúp thanh mát vào mùa hè",
+                    "Chè đậu đen, trái cây sữa chua là một sự lựa chọn hoàn hảo",
+                    "Kem chuối trái cây siêu mát ngày nắng",
+                    "Sữa chua hoa quả ngũ cốc đầy dinh dưỡng"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Các loại bánh",
+               "patterns": [
+                    "Mình muốn làm bánh?",
+                    "Các loại bánh ngon?"
+               ],
+               "responses": [
+                    "Bạn có thể làm bánh bao nhân thịt",
+                    "Bánh chuối chiên sẽ rất ngon vào ngày trời lạnh",
+                    "Bánh nhãn vừa ngon, vừa dễ làm nhé bạn.",
+                    "Bánh gối đầy đủ dinh dưỡng",
+                    "Bánh gạo cay Hàn Quốc làm rất đơn giản mà không mất nhiều thời gian.",
+                    "Bánh xèo ăn buổi chiều sẽ rất tuyệt."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Ok",
+               "patterns": [
+                    "Ok",
+                    "Được cảm ơn bot"
+               ],
+               "responses": [
+                    "Bạn có muốn Bot tư vấn thêm cho bạn không?"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Đói",
+               "patterns": [
+                    "Mình đói quá",
+                    "Mình đói nhưng không biết ăn gì?"
+               ],
+               "responses": [
+                    "Bạn có thể làm tô mì trứng và 1 ít rau để giải quyết cơn đói nhanh chóng"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Tuổi",
+               "patterns": [
+                    "Bạn bao nhiêu tuổi?",
+                    "Bạn ra đời được bao lâu rồi?"
+               ],
+               "responses": [
+                    "Mình được sinh ra từ khi project AI ngày 7/6/2000. Đó cũng là ngày sinh của Boss mình."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Ngoại ngữ",
+               "patterns": [
+                    "Bạn có thể nói được tiếng anh không?",
+                    "Do you speak English?"
+               ],
+               "responses": [
+                    "Xin lỗi mình chỉ mới có thể nói tiếng việt."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          
+          {
+               "tag": "Nhà",
+               "patterns": [
+                    "Nhà bạn ở đâu?",
+                    "Bạn có nhà không?"
+               ],
+               "responses": [
+                    "Mình ở trong tâm trí bạn bất cứ lúc nào bạn cần mình."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          
+          {
+               "tag": "Hỏi ngược lại",
+               "patterns": [
+                    "Bạn hỏi mình đi?",
+                    "Bạn có câu hỏi cho mình không?"
+               ],
+               "responses": [
+                    "Bạn có đói không?",
+                    "Bạn ăn cơm chưa?",
+                    "Bạn tên gì?",
+                    "Bạn có người yêu chưa?"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Làm quen",
+               "patterns": [
+                    "Mình tên là",
+                    "Tên của mình là"
+               ],
+               "responses": [
+                    "Mình rất vui khi được tư vấn cho bạn. Bạn cần mình tư vấn về điều gì?"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Than thở",
+               "patterns": [
+                    "Mình đang chán quá bot ơi",
+                    "Mình buồn quá",
+                    "Mình không biết làm gì?"
+               ],
+               "responses": [
+                    "Bạn có thể nhấc mông dậy nấu ăn, Bot sẽ tư vấn cho bạn."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "tạm biệt",
+               "patterns": [
+                    "Tạm biệt",
+                    "Bye",
+                    "vậy nha"
+               ],
+               "responses": [
+                    "Cảm ơn bạn, nhớ quay lại nhé!",
+                    "Kitchen Bot yêu bạn hì hì."
+               ],
+               "context": [
+                    ""
+               ]
+          }
+     ]
+}
